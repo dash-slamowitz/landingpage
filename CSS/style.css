@@ -4,4 +4,15 @@ background-color: LightGray;
 
 div {
 border: 1px solid Chocolate
+
+//navigation bar//
+
+.top-navigation {
+background-color:#fff;
+}
+
+.top-navigation > .content{
+width: 970px;
+height: 70px;
+margin: 0 auto;
 }
