@@ -44,11 +44,27 @@ letter-spacing: 0.03em;
     color: #333333;
 }
 
-
 .introduction {
-	background-repeat: no-repeat;
-	background-position: center bottom;
-	background-size: cover;
-	height: 45.938rem;
-	width: auto;
+	background-image: url('../images/karma-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+
+.content {
+	padding: 0 0.938rem;
+    min-width: 37.5rem;
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    margin:0 auto; width: 970px
+    margin-top: 10em;
+}
+
+button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
 }
