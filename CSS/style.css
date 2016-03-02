@@ -9,6 +9,10 @@ margin:0em;
 background-color:#ffffff;
 width: 100%;
 display: block;
+position: fixed;
+width: 100%;
+z-index: 9999;
+top:0;
 }
 
 .top-nav > .content{
@@ -44,22 +48,24 @@ letter-spacing: 0.03em;
     color: #333333;
 }
 
+/*intro*/
+
 .introduction {
 	background-image: url('../images/karma-background.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
+    padding: 10em 0;
+    vertical-align: baseline;
 }
 
-.content {
+.introduction #introtext {
 	padding: 0 0.938rem;
     min-width: 37.5rem;
     text-align: center;
     color: #ffffff;
     font-family: sans-serif;
     margin:0 auto; width: 970px
-    margin-top: 10em;
 }
 
 button {
@@ -67,4 +73,31 @@ button {
     border-style: none;
     border-radius: 4px;
     padding: 1rem 1.5rem;
+    background-color: #f15a29;
+    color: white;
 }
+
+/*icons*/
+
+.icons .devices {
+	width: 33.3333333%;
+    display: inline-block;
+    box-sizing: border-box;
+    float:left;
+    padding:  0 5em 0 5em; 
+    
+}
+
+h3 {
+    margin: 0em;
+}
+
+.icons .devices .listimage {
+    display: block;
+    width: 100%;
+}
+
+#needkarma {
+    clear: both;
+}
+/*footer*/
