@@ -1,7 +1,3 @@
-body{
-background-color: LightGray;
-margin:0em;
-}
 
 /*//navigation bar//*/
 
@@ -60,12 +56,12 @@ letter-spacing: 0.03em;
 }
 
 .introduction #introtext {
-	padding: 0 0.938rem;
+	padding: 6em;
     min-width: 37.5rem;
     text-align: center;
     color: #ffffff;
     font-family: sans-serif;
-    margin:0 auto; width: 970px
+    margin:0 auto;
 }
 
 button {
@@ -75,29 +71,79 @@ button {
     padding: 1rem 1.5rem;
     background-color: #f15a29;
     color: white;
+    margin-top: 1em;
 }
 
-/*icons*/
+/*devices*/
 
-.icons .devices {
+.devices {
 	width: 33.3333333%;
     display: inline-block;
     box-sizing: border-box;
     float:left;
     padding:  0 5em 0 5em; 
-    
+    font-family: sans-serif;
 }
 
 h3 {
     margin: 0em;
+    font-family: sans-serif;
+    text-align: center;
 }
 
-.icons .devices .listimage {
+#needkarma {
+    font-family: sans-serif;
+    clear: both;
+    text-align: center;
+}
+
+.devices .listimage {
     display: block;
     width: 100%;
 }
 
-#needkarma {
-    clear: both;
+.fix {
+clear:both;
 }
+
 /*footer*/
+
+.footercontent {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+
+h5 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.social {
+    align-items: center;
+    width: 100%;
+    align-content: center;
+}
+
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+.icons {
+    margin-left: 37.7%;
+    width: 100%;
+}
+
+
+h4 {
+    text-align: center;
+    font-size: 1em;
+    color: Grey;
+    font-family: sans-serif;
+}
